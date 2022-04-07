@@ -25,19 +25,19 @@ $container-max-widths: (
 
 // media query helpers
 $xs-only: "(min-width: 0) and (max-width: 575.98px)";
-$sm-up:   "(min-width: 576px)";
+$sm-up: "(min-width: 576px)";
 $sm-down: "(max-width: 575.98px)";
 $sm-only: "(min-width: 576) and (max-width: 767.98px)";
-$md-up:   "(min-width: 768px)";
+$md-up: "(min-width: 768px)";
 $md-down: "(max-width: 767.98px)";
 $md-only: "(min-width: 768px) and (max-width: 991.98px)";
-$lg-up:   "(min-width: 992px)";
+$lg-up: "(min-width: 992px)";
 $lg-down: "(max-width: 1199.98px)";
 $lg-only: "(min-width: 992px) and (max-width: 1199.98px)";
-$xl-up:   "(min-width: 1200px)";
+$xl-up: "(min-width: 1200px)";
 $xl-down: "(max-width: 1199.98px)";
 $xl-only: "(min-width: 1200px) and (max-width: 1499.98px)";
-$xxl-up:  "(min-width: 1500px)";
+$xxl-up: "(min-width: 1500px)";
 $xxl-down: "(max-width: 1499.98px)";
 $landscape: "(orientation: landscape)";
 $portrait: "(orientation: portrait)";
