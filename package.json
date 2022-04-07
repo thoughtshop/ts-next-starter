@@ -14,6 +14,9 @@
   },
   "devDependencies": {
     "bootstrap": "^5.0.0-beta1",
-    "sass": "^1.32.5"
+    "sass": "^1.32.5",
+    "stylelint": "^14.6.1",
+    "stylelint-config-ts": "^0.0.5",
+    "stylelint-order": "^5.0.0"
   }
 }
