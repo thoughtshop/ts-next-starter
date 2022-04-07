@@ -1,6 +1,23 @@
 {
-  "singleQuote": true,
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "singleQuote": false,
   "trailingComma": "none",
-  "printWidth": 100,
-  "jsxSingleQuote": true
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.(js|jsx)",
+      "options": {
+        "singleQuote": true
+      }
+    },
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
 }
