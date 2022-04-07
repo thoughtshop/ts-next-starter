@@ -1,11 +1,12 @@
 /**
  * @param {object} props
- * @param {boolean} props.robots
+ * @param {boolean} props.robots whether or not to allow crawling
  * @param {string} props.pageDesc
  * @param {string} props.pageTitle
+ * @param {string} props.pageUrl
  * @param {string} props.seoImage path to SEO image
  */
-const Head = ({ pageDesc, pageTitle, robots, seoImage }) => (
+const Head = ({ pageDesc, pageTitle, pageUrl, robots, seoImage }) => (
   <>
     <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
     <meta name="robots" content={robots ? 'index,follow' : 'none'} />
