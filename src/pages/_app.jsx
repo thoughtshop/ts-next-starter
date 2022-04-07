@@ -1,3 +1,5 @@
+import GlobalNoScript from '../components/GlobalNoScript';
+
 import '../styles/app.scss';
 
 function MyApp({ Component, pageProps }) {
@@ -5,7 +7,12 @@ function MyApp({ Component, pageProps }) {
   if (typeof window !== 'undefined') {
     require('bootstrap/js/dist/collapse');
   }
-  return <Component {...pageProps} />;
+  return (
+    <>
+      {/* <GlobalNoScript /> */}
+      <Component {...pageProps} />
+    </>
+  );
 }
 
 export default MyApp;
