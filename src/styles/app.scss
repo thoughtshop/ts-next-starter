@@ -1,7 +1,7 @@
-@import './app_variables';
-@import './bootstrap';
+@import 'normalize.css';
+@import "./app_variables";
+@import "./bootstrap";
 
 // add site stylesheets below
-@import './globals';
-@import './home';
-@import './nav';
+@import "./global";
+@import "./nav";
