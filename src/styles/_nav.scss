@@ -7,15 +7,16 @@ nav {
   height: 70px;
 
   background-color: $white;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 6px rgb(0 0 0 / 0.5);
 }
 
 .brand-logo {
-  @include media-breakpoint-up(md) {
-    height: 30px;
-  }
   height: 25px;
   margin-left: 5vw;
+
+  @media #{$md-up} {
+    height: 30px;
+  }
 }
 
 .toggler-line {
@@ -73,7 +74,7 @@ nav {
   z-index: 4;
 
   background-color: $white;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 6px rgb(0 0 0 / 0.5);
 
   text-align: center;
 
@@ -82,9 +83,6 @@ nav {
   }
 
   a {
-    @include media-breakpoint-up(md) {
-      font-size: 3em;
-    }
     display: inline-block;
     width: 100vw;
     padding-top: 20px;
@@ -97,6 +95,10 @@ nav {
     text-decoration: none;
 
     transition: color 0.2s ease-out, background-color 0.2s ease-in;
+
+    @media #{$md-up} {
+      font-size: 3em;
+    }
   }
 
   .navbar-nav > li > a:hover {
