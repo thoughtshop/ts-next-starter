@@ -5,7 +5,7 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 
 const Home = () => (
-  <div>
+  <>
     <NextHead>
       <Head
         robots={false}
@@ -16,7 +16,7 @@ const Home = () => (
     <Nav />
     <main></main>
     <Footer />
-  </div>
+  </>
 );
 
 export default Home;
