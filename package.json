@@ -1,6 +1,7 @@
 {
   "name": "ts-next-starter",
   "version": "0.1.0",
+  "description": "Thought Shop’s starter for Next.js",
   "license": "0BSD",
   "author": "Corey Lowe",
   "private": true,
